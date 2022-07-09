@@ -11,10 +11,17 @@
 }
 
 .first {
-    background-color: #e4dfd0;
+    /* background-color: #e4dfd0;
     width: 465px;
     padding: 8px;
     height: 500px;
+    margin-top: 10px;
+    margin-left: 11%;
+    margin-bottom: 15px;*/
+    background-color: #fff4f4;
+    width: 439px;
+    padding: 8px;
+    height: 472px;
     margin-top: 10px;
     margin-left: 11%;
     margin-bottom: 15px;
@@ -22,29 +29,53 @@
 
 .second {
 
-    background-color: rgb(143, 92, 40);
+    /* background-color: rgb(143, 92, 40);
 
     width: 465px;
     padding: 8px;
     height: 500px;
     margin-top: 10px;
     margin-left: 1px;
+    margin-bottom: 15px;*/
+
+
+
+    background-color: #a16941;
+    width: 439px;
+    padding: -67px;
+    height: 487px;
+    margin-top: 10px;
+    margin-left: 1px;
     margin-bottom: 15px;
 }
 
 .flex-container h6 {
-    color: white;
+    /* color: white;
     text-transform: uppercase;
 
     margin-top: 20px;
     font-style: normal;
     font-weight: normal;
+    text-align: center;*/
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: initial;
     text-align: center;
+    font-size: 13px;
+
 }
 
 h1 {
-    font-size: 58px;
+   /* font-size: 58px;
     margin-top: 41px;
+    opacity: 0.4;
+    color: #828574;
+    font-weight: 100;
+    margin-left: 12px;*/
+    font-size: 58px;
+    margin-top: 15px;
     opacity: 0.4;
     color: #828574;
     font-weight: 100;
@@ -63,15 +94,14 @@ h1 {
 
 .img2 {
 
-    
-    height: 210px;
+
+    height: 279px;
     object-fit: fill;
     margin: auto;
-    position: relative;
-    width: 38%;
-    margin-left: 104px;
-    margin-top: 60px;
-}
+    position: absolute;
+    width: 16%;
+    margin-left: 90px;
+    margin-top: 41px;}
 
 
 
@@ -89,10 +119,16 @@ p {
 }
 
 .third {
-    margin-top: 20px;
+    /*margin-top: 20px;
     margin-left: 10px;
     width: 210px;
+    font-size: 14px;*/
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 231px;
     font-size: 14px;
+    font-family: sans-serif;
+    opacity: 0.8;
 
 }
 
@@ -108,8 +144,8 @@ p {
 
 a {
     position: absolute;
-    top: 26%;
-    right: 0;
+    top: 23%;
+    right: 16px;
     font-size: 24px;
     width: 39%;
 }
@@ -121,6 +157,6 @@ a {
 
 .div4 {
     text-align: center;
-    margin-top: 110px;
+    margin-top: 370px;
     color: white;
 }
